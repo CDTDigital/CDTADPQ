@@ -1,0 +1,23 @@
+engines:
+  eslint:
+    enabled: true
+  csslint:
+    enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - python
+      - javascript
+
+ratings:
+  paths:
+  - "**/*.py"
+  - "**/*.js"
+  - "**/*.css"
+
+exclude_paths:
+- "**/__init__.py"
+- "**/test_*.py"
+- "web/static/usds-0.14.0"
+
